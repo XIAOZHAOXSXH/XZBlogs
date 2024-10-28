@@ -11,14 +11,37 @@ author: 小赵先生
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
+# # URL
+# ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+# url: http://www.xiaozhao.blog
+# permalink: :year/:month/:day/:title/
+# permalink_defaults:
+# pretty_urls:
+#   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+#   trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
 # URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://www.xiaozhao.blog
-permalink: :year/:month/:day/:title/
+## If your site is in a subdirectory, set `root` to that subdirectory, e.g. `/blog/`.
+root: /
+permalink: p/:abbrlink/  # 使用 abbrlink 生成的简短链接
 permalink_defaults:
-pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+# abbrlink 配置
+abbrlink:
+  alg: crc32      # 支持 crc16 (默认) 和 crc32 算法
+  rep: hex        # 支持 dec (默认) 和 hex 表示法
+  drafts: false   # 是否处理草稿文章，默认 false
+
+# 自动生成分类
+auto_category:
+  enable: true   # 启用自动生成分类功能
+  depth: 3       # 最大分类深度
+  over_write: false  # 是否覆盖现有的分类设置
+
+# 自动生成标题和日期
+auto_title: false  # 是否自动根据路径生成标题
+auto_date: false   # 是否自动使用当前时间作为日期
+force: false       # 强制模式，忽略缓存
 
 # Directory
 source_dir: source

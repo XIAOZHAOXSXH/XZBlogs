@@ -1,7 +1,8 @@
 ---
 title: 使用Github和Cloudflare无服务器部署Hexo博客
-date: 2024-10-28 14:33:01
 tags: 技术分享
+abbrlink: 33457
+date: 2024-10-28 14:33:01
 ---
 
 ## 目录

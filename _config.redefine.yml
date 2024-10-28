@@ -68,7 +68,7 @@ global:
   # 鼠标悬停效果
   hover:
     shadow: true # 阴影效果
-    scale: false # 缩放效果
+    scale: true # 缩放效果
   # 滚动进度
   scroll_progress:
     bar: true # 进度条
@@ -90,7 +90,7 @@ global:
   open_graph: true
   # Google Analytics
   google_analytics:
-    enable: true # 是否启用 Google Analytics
+    enable: false # 是否启用 Google Analytics
     id:  # Google Analytics 测量 ID
 # 网站自定义 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
@@ -104,7 +104,7 @@ fontawesome: # Pro v6.2.1
   # 双音版
   duotone: false
   # 锐利实心版
-  sharp_solid: false
+  sharp_solid: true
 # FontAwesome <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 # 首页横幅 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
@@ -124,7 +124,7 @@ home_banner:
   subtitle:
     text: ["这里是我的个人博客.","欢迎和我交流技术.","探究代码之道."] # 副标题文本，数组
     hitokoto:  # 一言配置
-      enable: true # 是否启用一言
+      enable: false # 是否启用一言
       show_author: false # 是否显示作者
       api: https://v1.hitokoto.cn # API URL，可添加类型，参见 https://developer.hitokoto.cn/sentence/#%E5%8F%A5%E5%AD%90%E7%B1%BB%E5%9E%8B-%E5%8F%82%E6%95%B0
     typing_speed: 100 # 打字速度（毫秒）

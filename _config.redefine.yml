@@ -192,19 +192,19 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house # 可以为空
-    # Archives: 
-    #   path: /archives 
-    #   icon: fa-regular fa-archive # 可以为空
+    Archives: 
+      path: /archives 
+      icon: fa-regular fa-archive # 可以为空
     # Status: 
     #   path: https://status.ohevan.com/
     #   icon: fa-regular fa-chart-bar
-    # About: 
-    #   icon: fa-regular fa-user
-    #   submenus:
-    #     Me: /about
-    #     Github: https://github.com/EvanNotFound/hexo-theme-redefine
-    #     Blog: https://ohevan.com
-    #     Friends: /friends
+    About: 
+      icon: fa-regular fa-user
+      submenus:
+        Me: /about
+        Github: https://github.com/XIAOZHAOXSXH/XZBlogs
+        Blog: https://www.xiaozhaoxs.cn:81
+        Friends: /friends
     # Links: 
     #   icon: fa-regular fa-link
     #   submenus:
@@ -431,7 +431,7 @@ plugins:
       # .... 你可以在这里添加更多音频
   # Mermaid JS。需要 hexo-filter-mermaid-diagrams（npm i hexo-filter-mermaid-diagrams）。参见 https://mermaid.js.org/
   mermaid:
-    enable: false # 是否启用 Mermaid
+    enable: true # 是否启用 Mermaid
     version: "9.3.0" # 默认 v9.3.0
 # 插件 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 

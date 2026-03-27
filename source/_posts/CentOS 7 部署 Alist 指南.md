@@ -1,5 +1,5 @@
 ---
-title: CentOS 7 部署 Alist 指南（宝宝专用版）
+title: CentOS 7 部署 Alist 指南
 tags: 技术分享
 date: 2025-10-11 17:01:01
 ---
